@@ -33,7 +33,6 @@ document.querySelector('.again').addEventListener('click', function () {
 // Check if number is correct-button
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
-  console.log(typeof guess);
 
   // no input
   if (!guess) {
